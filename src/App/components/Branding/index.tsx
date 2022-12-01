@@ -5,6 +5,6 @@ import { BrandingContainer } from "./styles";
 export const Branding = () => (
   <BrandingContainer>
     <Logo />
-    <Links />
+    {/* <Links /> */}
   </BrandingContainer>
 );

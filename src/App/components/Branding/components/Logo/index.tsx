@@ -1,5 +1,7 @@
+import { LogoContainer } from "./style";
+
 export const Logo = () => (
-  <>
+  <LogoContainer>
     <svg
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"
@@ -86,5 +88,5 @@ export const Logo = () => (
         vectorEffect="non-scaling-stroke"
       ></path>
     </svg>
-  </>
+  </LogoContainer>
 );

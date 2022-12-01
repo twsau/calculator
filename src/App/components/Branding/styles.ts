@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BrandingContainer = styled.header`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  place-content: end end;
+  padding-block-end: var(--size-7);
 `;

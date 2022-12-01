@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <Wrapper>
       <Calculator>
-        <Branding />
+        {/* <Branding /> */}
         <Display />
         <Buttons />
       </Calculator>
