@@ -4,6 +4,7 @@ import { ButtonProps } from "./types";
 export const ButtonsContainer = styled.div`
   display: grid;
   gap: var(--size-3);
+
   grid-template-areas:
     "backspace divide multiply minus"
     "num7 num8 num9 add"
@@ -14,8 +15,8 @@ export const ButtonsContainer = styled.div`
 `;
 
 const lightButtonStyles = css`
-  background-color: var(--text-3);
-  color: var(--surface-1);
+  background-color: var(--surface-1);
+  color: var(--accent);
 `;
 
 const defaultButtonStyles = css`

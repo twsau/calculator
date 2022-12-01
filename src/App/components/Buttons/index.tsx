@@ -64,7 +64,7 @@ export const Buttons = () => {
       >
         ×
       </Button>
-      <Button area="backspace" onClick={clearLast}>
+      <Button area="backspace" className="error" onClick={clearLast}>
         <RiDeleteBack2Fill />
       </Button>
       <Button area="num1" light onClick={() => onValuePress(1)}>
