@@ -38,6 +38,7 @@ export const useCalculator = create<CalculatorStore>()((set, get) => ({
     set({ operator });
   },
   equals: () => {
+    if (!get().operator) return;
     get().setOperator(null);
   },
 }));
