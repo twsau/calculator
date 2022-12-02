@@ -1,7 +1,7 @@
 import create from "zustand";
 import { CalculatorStore } from "./types";
 
-const MAX_DIGITS = 8;
+const MAX_DIGITS = 7;
 
 const operate = {
   "+": (a: number, b: number) => (a + b).toFixed(),
